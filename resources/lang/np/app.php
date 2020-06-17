@@ -1,0 +1,38 @@
+<?php
+
+return [
+
+   //my view
+    "Dashboard" => "ड्यासबोर्ड",
+    "Users" => "प्रयोगकर्ता",
+    "office" => "कार्यालय",
+    "provider" => "प्रदायक",
+    "docuemnt" => "दस्तावेज",
+    "total_no_of_day" => "दिनको कुल संख्या",
+    "amount" => "राशि",
+    "manage" => "व्यवस्थापन गर्नुहोस्",
+    "service" => "सेवा",
+    "News" => " समाचार",
+    "name" => "नाम",
+    "content" => "सामग्री",
+    "start_date" => "सुरू मिति",
+    "end_date" => "अन्त्य मिति",
+    "Setting" => "सेटिङ",
+    "add_new_item" => "नयाँ थप गर्नुहोस्",
+    "Notice" => "सूचना",
+    "Digital Notice Board" => "डिजिटल सूचना पाटी",
+    "HomePage Setting" => "गृहपृष्ठ सेटिङ",
+    "HomePage" => "गृहपृष्ठ",
+    "Layout" => "लेआउट",
+    "Add New Content" => "नयाँ कन्टेन्ट थप्नुहोस्",
+    "File" => "फाईल (.pdf)",
+    "Youtube Link" => "युट्युब लिंक",
+    "Please Select" => "छान्नुहोस्",
+    "All Field" => "सबै फिल्ड आवश्यक छ",
+    "Add" => "थप्नुहोस्",
+    "Save" => "सेभ",
+    "Text" => "टेक्स्ट",
+    "Type" => "फाइलको किसिम",
+    "Title" => "शीर्षक",
+    "Multiple Image File" => "बहु छवि फाइल",
+    ];

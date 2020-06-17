@@ -1,0 +1,345 @@
+.gallery-image{
+object-fit: cover;
+}
+.gallery-box{
+    width: 340px;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    background-color: #D9D9D9;
+}
+.gallery-box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(0.99);
+}
+
+.gallery-show{
+    padding: 5px;
+    background: #959595;
+    overflow: hidden;
+}
+gallery-show span{
+color: #1c94c4;
+}
+
+.tags{
+    display: flex;
+}
+
+
+.content {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.webinar-hero {
+    max-width: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.webinar-details-wrapper {
+    margin-top: 30px;
+    text-align: right;
+}
+@media screen and (max-width: 767px) {
+    .webinar-details-wrapper {
+        text-align: left;
+    }
+}
+.webinar-details-wrapper .detail {
+    padding-bottom: 15px;
+}
+.webinar-details-wrapper .webinar-start-time {
+    font-size: 1.2em;
+    color: seagreen;
+    text-align: -webkit-auto;
+}
+.webinar-details-wrapper .price {
+    font-size: 1.2em;
+    color: seagreen;
+    font-weight: bold;
+    text-align: -webkit-auto;
+}
+.webinar-details-wrapper .webinar-sponsor .label {
+    display: block;
+    text-align: right;
+    padding-bottom: 10px;
+}
+@media screen and (max-width: 767px) {
+    .webinar-details-wrapper .webinar-sponsor .label {
+        text-align: left;
+    }
+}
+.webinar-details-wrapper .label {
+    color: #333;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 0;
+}
+.paginate{
+    margin: 20px;
+}
+.gallery-video-box{
+    height: 60%;
+}
+.gallery-video{
+    object-fit: cover;
+height: 100%;
+    width: 100%;
+}
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+    margin-top: 24px;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.status-msg {
+    text-align: -webkit-auto;
+}
+
+.wrap{
+    width: 30%;
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+}
+.card-box:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.rounded-circle{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    color: green;
+}
+
+.detail-container{
+    margin-top: 20px;
+    background: white;
+    padding: 10px;
+}
+
+.btn-group{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightcyan;
+}
+
+
+.btn-group button {
+    background-color: #4CAF50; /* Green background */
+    border: 1px solid green; /* Green border */
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+    background-color: #3e8e41;
+}
+
+.profile-card{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: white;
+}
+
+.profile-gallery-single{
+    margin: 10px;
+}
+
+
+.profile-gallery-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    overflow: hidden;
+    padding: 5px;
+}
+.profile-gallery-card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.category-box{
+    /*background-color: green;*/
+    padding: 5px;
+    border: 2px dotted grey;
+}
+
+/* Absolute Center Spinner */
+.loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, .8));
+
+    background: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,.8));
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.loading:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+    box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+}
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
